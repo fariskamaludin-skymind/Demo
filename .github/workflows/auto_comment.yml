@@ -1,4 +1,4 @@
-name: Auto Comment
+name: Issues Auto Comment
 
 on:
   issues:
@@ -14,7 +14,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           issuesOpenedReactions: 'hooray, +1'
           issuesOpenedComment: >
-            Hi @{{ author }}
+            👋 @{{ author }}
             
             Thank you for raising an issue. We will investigate into the matter and get back to you as soon as possible.
             
