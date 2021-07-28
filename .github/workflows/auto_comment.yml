@@ -1,6 +1,9 @@
 name: Auto Comment
 
-on: [issues]
+on:
+  issues:
+    types:
+      - opened
 
 jobs:
   run:
